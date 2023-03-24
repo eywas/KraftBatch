@@ -1,0 +1,51 @@
+Day 8
+
+Neler Ogrendik
+1. main method
+2. print() & println()
+3. escape characters (sequences)
+4. primitive & Strin variables
+5. Concatenation
+6. Casting (ImplicitExplicit)
+7. Aritmetic Operators
+8. Scanner Class
+
+Aritmetic Operators
+    in math
+        10/4 = 2.5
+        100/3 = 33.33333......
+    in Java
+        10/4 = 2
+        100/3 = 33
+        10.0 = 2.5
+
+        20/6 = 3
+        20/6.0 = 3.3333333.........
+
+        remainder % modulus
+        10%3 = 1
+
+        math 45/8 = 5.625
+
+        java 46/8 = 5
+             46%8 = 6
+
+       Casting:
+             //
+             //
+
+
+        Scanner
+
+
+        // 1. adım Scanner objesi oluşturalım
+                Scanner scan = new Scanner(System.in);
+
+                nextInt()
+                nextDouble()
+                nextBoolean()
+                nextLine()
+                                    if we are nextLine() method after the other methods of scanner
+
+
+

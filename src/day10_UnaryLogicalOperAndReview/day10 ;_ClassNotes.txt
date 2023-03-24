@@ -1,0 +1,25 @@
+Day 10
+
+Arithmetic Operators (*/%+-)   ---done
+
+Shorthand Operators (=, -=, *=, /=, %=)   ---done
+
+Relational Operators (>, >=, <, <=, ==; !=)   ---done
+
+Unary Operators (+, -, ++, --)
+
+Logical Operators(&, &&, |, ||, ^ )
+
+&& AND VE
+    both
+    in logical operator, both expression should be true return true;
+
+|| OR VEYA
+    either
+    only one expression needs to be true to return true.
+    if || returns false, both expressions are false
+
+^ : X OR YA DA
+    returns true if both sides are not same (XOR = Farklıysan Kazanırsın)
+
+    false ^ false = false
