@@ -1,24 +1,21 @@
 package day02_MyfirstProgram.src.day19_CustomMethods_Return;
 
-public class Homework_03 {
+public class Homework_03_Ucgen_Piramit {
     public static void main(String[] args) {
-        ucgenPiramit();
-
+        ucgenPiramit(5);
     }
+    public static void ucgenPiramit(int num) {
 
-    public static char ucgenPiramit() {
-        char ch=' ';
-        for (int i = 3; i > 0; i--) {
-            for (int j = 1; j < i; j++) {
+        for (int i = num; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
                 System.out.print(" ");
-
             }
-            for (int k = 4 - i; k > 0; k--) {
+
+            for (int k = (num+1) - i; k > 0; k--) {
                 System.out.print("* ");
 
             }
             System.out.println();
-
-        } return ch;
+        }
     }
 }

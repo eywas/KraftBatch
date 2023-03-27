@@ -2,7 +2,7 @@ package day02_MyfirstProgram.src.day19_CustomMethods_Return;
 
 import java.util.Scanner;
 
-public class Homework_02 {
+public class Homework_02_Taban_Kuvvet {
     public static void main(String[] args) {
         System.out.println(tabanKuvvet());
     }
