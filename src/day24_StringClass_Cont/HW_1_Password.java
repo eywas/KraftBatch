@@ -1,0 +1,26 @@
+package day02_MyfirstProgram.src.day24_StringClass_Cont;
+
+import java.util.Scanner;
+
+public class HW_1_Password {
+    public static void main(String[] args) {
+        passCheck();
+    }
+
+    public static void passCheck(){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("User Name: ");
+        String userName= scan.nextLine();
+        System.out.print("Password: ");
+        String password=scan.nextLine();
+        if (userName.length()<3||password.length()<8||userName.isEmpty()||password.isEmpty()){
+            passCheck();
+        }else{
+            System.out.println("İşlem başarılı.");
+        }
+
+
+
+
+    }
+}
