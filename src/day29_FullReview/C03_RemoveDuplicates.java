@@ -2,7 +2,7 @@ package day02_MyfirstProgram.src.day29_FullReview;
 
 public class C03_RemoveDuplicates {
     public static void main(String[] args) {
-        System.out.println("removeDuplicates(\"AABBCCBC\") = " + removeDuplicates("AABBCCBC"));
+        System.out.println("removeDuplicates(\"AABBCCBC\") = " + removeDuplicates("Java"));
     }
     public static String removeDuplicates(String str){
         String result="";

@@ -13,10 +13,12 @@ public class HW_1_Password {
         String userName= scan.nextLine();
         System.out.print("Password: ");
         String password=scan.nextLine();
-        if (userName.length()<3||password.length()<8||userName.isEmpty()||password.isEmpty()){
-            passCheck();
+        if (userName.length()<3||password.length()<3||userName.isEmpty()||password.isEmpty()){
+            for (int i = 0; i < 3; i++) {
+                passCheck();
+            }
         }else{
-            System.out.println("İşlem başarılı.");
+            System.out.println(userName.concat(password));
         }
 
 
