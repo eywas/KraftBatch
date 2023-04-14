@@ -73,7 +73,7 @@ public class C04_Tasks {
 
     }
 
-    //Bir sayı dizisinin en büyük ve en küçük element lerinin aritmetik ortalamasını veren bir method yazın.
+    //Bir sayı dizisinin en büyük ve en küçük elementlerinin aritmetik ortalamasını veren bir method yazın.
     public static double maxMinOrtalama(int[] arr) {
         double max = arr[0];
         double min=arr[0];
