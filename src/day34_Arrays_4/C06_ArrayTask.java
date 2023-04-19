@@ -2,7 +2,7 @@ package day02_MyfirstProgram.src.day34_Arrays_4;
 
 import java.util.Arrays;
 
-public class C06_2dArrayTask {
+public class C06_ArrayTask {
     public static void main(String[] args) {
         String str ="merhaba java insanları bugün nasılsınız";
         System.out.println(Arrays.deepToString(splitArray(str)));
