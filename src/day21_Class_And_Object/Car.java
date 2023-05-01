@@ -4,7 +4,7 @@ public class Car {
 
     String marka;
     int modelYil;
-    int begir;
+    int beygir;
     String saseNo;
     boolean isSuv;
     boolean isManual;
@@ -14,7 +14,7 @@ public class Car {
         System.out.println("Araç hızlanıyor");
     }
     public String begirKarsilastir(){
-        if(begir>100){
+        if(beygir>100){
             return "Güçlü Araç";
         }
         return "Zayif araç";
