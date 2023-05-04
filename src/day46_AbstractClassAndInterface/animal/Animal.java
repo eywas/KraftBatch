@@ -37,7 +37,7 @@ public abstract class  Animal {
     }
 
     public void setAge(int age) {
-        if(age<=0){
+        if(age<0){
             System.err.println("Invalid Age"+age);
         }
         this.age = age;
