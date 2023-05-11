@@ -56,7 +56,7 @@ Abstract class vs interface:  both are used for achieving abstraction
 
 		  					can have constructor
 
-		  					4 access modofiers
+		  					4 access modifiers
 
 		  	interface: one class can implement multiple interfaces
 

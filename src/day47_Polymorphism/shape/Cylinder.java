@@ -1,8 +1,8 @@
 package day02_MyfirstProgram.src.day47_Polymorphism.shape;
 
 public class Cylinder extends Shape implements Volume{
-    public Cylinder(String name) {
-        super(name);
+    public Cylinder() {
+        super("Cylinder");
     }
 
     @Override

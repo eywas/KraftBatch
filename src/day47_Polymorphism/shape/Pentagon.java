@@ -1,8 +1,8 @@
 package day02_MyfirstProgram.src.day47_Polymorphism.shape;
 
 public class Pentagon extends Shape {
-    public Pentagon(String name) {
-        super(name);
+    public Pentagon() {
+        super("Pentagon");
     }
 
     @Override

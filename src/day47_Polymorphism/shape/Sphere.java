@@ -2,8 +2,8 @@ package day02_MyfirstProgram.src.day47_Polymorphism.shape;
 
 public class Sphere extends Shape implements Volume {
 
-    public Sphere(String name) {
-        super(name);
+    public Sphere() {
+        super("Sphere");
     }
 
     @Override

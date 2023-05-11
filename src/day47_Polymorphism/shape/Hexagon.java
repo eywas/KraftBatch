@@ -1,9 +1,9 @@
 package day02_MyfirstProgram.src.day47_Polymorphism.shape;
 
 public class Hexagon extends Shape{
-    public Hexagon(String name) {
+    public Hexagon() {
 
-        super(name);
+        super("Hexagon");
     }
 
     @Override

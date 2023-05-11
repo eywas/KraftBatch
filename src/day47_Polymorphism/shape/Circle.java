@@ -6,7 +6,7 @@ public class Circle extends Shape{
     public final static double PI= Math.PI;
 
     public Circle(double radius) {
-        super("circle");
+        super("Circle");
         setRadius(radius);
     }
 
