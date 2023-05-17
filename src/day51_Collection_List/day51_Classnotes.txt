@@ -20,11 +20,11 @@ Collections
                                      Accessing the data is fast (get())
 
                         LinkedList:  uses doubly linked list (previous nodes reference, data, next nodes reference)
-                                     adding/removing is sfaster (add(),remove())
+                                     adding/removing is faster (add(),remove())
                                      requires more memory size
 
                         Vector:      internally uses array
                                      Thread Safe- Synchronised
 
-                        Stack:       LIFO (Last in First Out)
+                        Stack:       LIFO (Last In First Out)
 
